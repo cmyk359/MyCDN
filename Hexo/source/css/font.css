@@ -1,0 +1,10 @@
+/* 设置网站字体为：LXGW WenKai */
+@font-face {
+    font-family: "LXGW WenKai";
+    src: url("https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css");
+}
+
+/* 设置鼠标样式*/
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/cmyk359/MyCDN/Hexo/static/Arrow-168.cur), auto;
+}
