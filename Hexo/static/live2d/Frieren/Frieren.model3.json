@@ -33,10 +33,6 @@
 				"File": "lks.exp3.json"
 			},
 			{
-				"Name": "bl",
-				"File": "bl.exp3.json"
-			},
-			{
 				"Name": "wh",
 				"File": "wh.exp3.json"
 			},
@@ -53,10 +49,6 @@
 				"File": "anya2.exp3.json"
 			},
 			{
-				"Name": "anyazZZ",
-				"File": "anyazZZ.exp3.json"
-			},
-			{
 				"Name": "W",
 				"File": "W.exp3.json"
 			},
@@ -71,7 +63,9 @@
 					"File": "daiji.motion3.json"
 				},
 				{
-					"File": "zs1.motion3.json"
+					"File": "zs1.motion3.json",
+					"FadeInTime": 1,
+					"FadeOutTime": 1
 				}
 			]
 		}
