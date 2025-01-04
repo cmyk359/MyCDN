@@ -1,0 +1,137 @@
+.entry-content * {
+    box-sizing: border-box;
+}
+
+.entry-content pre.highlight-wrap .copy-code {
+    color: #fff;
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 0;
+    padding-top: 4px;
+    padding-right: 2px;
+    z-index: 2;
+    font-size: 16px;
+}
+
+.toc-container {
+    z-index: 98;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    transform: translateX(0);
+    right: calc((100% - 950px - 250px)/2);
+    position: absolute !important;
+    top: 480px;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px
+}
+
+@media(max-width:860px) {
+    .toc-container {
+        display: none
+    }
+}
+
+.toc {
+    overflow-y: auto
+}
+
+.toc>.toc-list {
+    overflow: hidden;
+    position: relative
+}
+
+.toc>.toc-list li {
+    list-style: none
+}
+
+.toc-list {
+    margin: 0;
+    padding-left: 10px
+}
+
+a.toc-link {
+    color: currentColor;
+    height: 100%
+}
+
+
+
+
+.poem-wrap {
+    position: relative;
+    width: 730px;
+    max-width: 80%;
+    border: 2px solid #797979;
+    border-top: 0;
+    text-align: center;
+    margin: 80px auto
+}
+
+.poem-wrap h2 {
+    position: relative;
+    margin-top: -20px;
+    display: inline-block;
+    letter-spacing: 4px;
+    color: #797979
+}
+
+.poem-wrap p {
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+    color: #797979
+}
+
+.poem-wrap p#poem_sentence {
+    font-size: 25px
+}
+
+.poem-wrap p#poem_info {
+    font-size: 15px;
+    margin: 15px auto
+}
+
+.poem-border {
+    position: absolute;
+    height: 2px;
+    width: 27%;
+    background-color: #797979
+}
+
+.poem-right {
+    right: 0
+}
+
+.poem-left {
+    left: 0
+}
+
+@media(max-width:685px) {
+    .poem-border {
+        width: 18%
+    }
+}
+
+@media(max-width:500px) {
+    .poem-wrap {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        border-top: 2px solid #797979
+    }
+
+    .poem-wrap h1 {
+        margin: 20px 6px
+    }
+
+    .poem-border {
+        display: none
+    }
